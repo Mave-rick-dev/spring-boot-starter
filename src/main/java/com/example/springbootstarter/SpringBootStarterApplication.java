@@ -18,14 +18,4 @@ public class SpringBootStarterApplication {
 
 }
 
-@RestController
-@RequestMapping(value = "/hello")
-class helloController{
-
-    @GetMapping(value = "/")
-    public String welcome() {
-        return "hello world!!";
-    }
-}
-
 
